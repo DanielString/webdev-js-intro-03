@@ -1,0 +1,11 @@
+Explain why a number data type added to a string data type returns a string.
+JavaScript converts the number to a string and then adds the two strings together, so it returns a string.
+
+Name a scenario where using the == operator could cause a bug.
+When you are comparing strings as opposed to numbers, the == could cause problems.  Better to use the equals method.
+
+Name the operator(s) that you find confusing and explain why.
+&&.  This confused me because according to the examples, it should return a true or false, but when I tested it out in console.log, it just returned the second number I added.
+
+Explain a situation where you would use the Modulus operator and why.
+If you are creating a program where you are providing concessions for a crowd, you can use the modulus to see what should be remaining after your expected crowd is cared for.  Would help you determine if and how much overflow you can handle.
